@@ -37,7 +37,6 @@ def bruteforce(year, nim):
             sleep(3)
 
         if year != password.year:
-            print("END : ", year)
             continue_hack = False
 
     print("END : ", nim, " -> ", year)
